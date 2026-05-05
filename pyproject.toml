@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypilot-data"
+version = "0.1.0"
+
+[tool.setuptools]
+packages = ["pypilot_data"]
+
+[tool.setuptools.package-dir]
+"pypilot_data" = "pypilot_data"
+
+[tool.setuptools.package-data]
+"pypilot_data" = [
+    "**/*",
+]
